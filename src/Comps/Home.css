@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+}
+
+.react-projects-main {
+  padding: 1rem;
+}
+
+.react-intro-title {
+  text-align: left;
+  font-size: 1.5rem;
+  color: rgb(131, 130, 130);
+  margin-bottom: 2rem;
+  font-family: 'Barlow', sans-serif;
+}
+
+.project-container {
+  width: 80%;
+  margin: 1rem auto;
+  height: auto;
+  border: 1px solid rgb(180, 179, 179);
+  padding: 1rem 0;
+  max-width: 500px;
+  color: black;
+}
+
+.project-container:visited {
+  color: black;
+}
+
+.project-info-container {
+  margin: 2rem 0;
+  padding: 0 0.500rem;
+}
+
+.project-info-container * {
+  margin: 0.200rem 0;
+}
+
+.project-title {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1rem;
+  padding-left: 0.200rem;
+  font-family: 'Barlow', sans-serif;
+}
+
+.project-description {
+  font-size: 0.875rem;
+  padding-left: 0.200rem;
+  font-family: 'Barlow', sans-serif;
+}
+
+.project-img-container {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.show-project-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.link-btn {
+  width: 80%;
+  border: 0;
+  outline: 0;
+  text-align: center;
+  font-size: 0.875rem;
+  padding: 0.200rem 0;
+  font-weight: 700;
+}
+
+@media (min-width: 576px) {
+
+  .project-title {
+   
+    font-size: 1.2rem;
+    
+  }
+
+  .project-description {
+    font-size: 1rem;
+  }
+
+  .link-btn {
+    font-size: 1rem;
+  }
+
+}
+
+
+@media (min-width: 768px) {
+  .project-title {
+   
+    font-size: 1.4rem;
+    
+  }
+
+  .project-description {
+    font-size: 1.2rem;
+  }
+
+  .link-btn {
+    font-size: 1.2rem;
+  }
+
+}
+
+
+
+@media (min-width: 1000px) {
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project-link {
+    width: 44%;
+  }
+
+  .project-container {
+    transition: transform 200ms
+  }
+
+  .project-container:hover {
+    transform: translateY(-10px);
+  }
+
+  .project-img-container img {
+  
+    height: 600px
+    
+  }
+
+}

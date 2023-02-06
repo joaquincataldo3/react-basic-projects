@@ -1,0 +1,15 @@
+.notfound-text-container {
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Rubik', sans-serif;
+    margin: 3rem 0;
+}
+
+.notfound-text-container h1 {
+    font-size: 1.2rem;
+}
+
+.notfound-text-container h2 {
+    margin-top: 1rem;
+    font-size: 1rem;
+}

@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+ .characters-section {
+    margin: 3rem auto;
+    background-color: rgb(137, 162, 241);
+    height: auto;
+    padding: 1rem 0;
+    width: 90%;
+    max-width: 900px;
+    font-family: 'Kanit', sans-serif;
+}
+ 
+.tabs-experience {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+
+.characters-name-container {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.character-name {
+    cursor: pointer;
+    margin: 1rem 0.400rem 2rem 0;
+    padding-bottom: 0.300rem;
+}
+
+.character-active {
+    border-bottom: 3px solid rgb(242, 177, 92);
+}
+
+.character-name h3 {
+    width: 100%;
+}
+
+
+.character-desc-container {
+    padding: 0 1rem;
+    max-width: 590px;
+}
+
+.character-title {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.character-company {
+    margin: 1rem 0;
+}
+
+.character-dates {
+    font-size: 0.875rem;
+}
+
+
+.character-desc-container h3:nth-child(2) {
+    padding: 0.200rem;
+    background-color: rgb(242, 177, 92);
+
+    text-align: center;
+}
+
+.bx-plus, .bx-minus {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.duties-container {
+    margin: 1rem 0;
+}
+
+.icon-container {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+
+    .characters-section {
+        height: auto;
+    }
+
+    .character-info-container {
+        display: flex;
+        height: auto;
+        padding: 0 2rem;
+    }
+
+    .characters-name-container {
+        display: block;
+        width: 30%;
+    }
+
+    .character-desc-container {
+        padding: 2rem;
+        width: 70%;
+        height: 100%;
+    }
+
+    .character-title {
+        font-size: 1rem;
+    }
+}

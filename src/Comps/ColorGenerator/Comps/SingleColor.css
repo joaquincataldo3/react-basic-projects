@@ -1,0 +1,88 @@
+
+.single-color-container {
+    width: 70%;
+    margin: 2.5rem auto;
+    font-weight: 600;
+    padding: 0.500rem ;
+    border: 1px solid rgb(187, 185, 185);
+    cursor: pointer;
+    margin: 1rem;
+    position: relative;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.color-weight, .color-hex {
+    font-size: 0.875rem;
+    margin: 1rem 0;
+}
+
+ 
+
+
+.color-light {
+    color: rgb(184, 183, 183);
+}
+
+.hex-alert-copied-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hex-copy-container {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 250ms;
+    top: -20px;
+    right: 0;
+}
+
+.hex-copy {
+    font-size: 0.875rem;
+    color: green;
+}
+
+.copied {
+    opacity: 1;
+}
+
+
+@media (min-width: 768px) {
+    .single-color-container {
+        width: 50%;
+        max-width: 290px;
+    }
+
+    .color-weight, .color-hex {
+        font-size: 1rem;
+        
+    }
+    
+
+}
+
+
+@media (min-width: 1000px) {
+
+    .color {
+        width: 20%; 
+        transition: transform 250ms;
+    }
+
+    .color:hover {
+        transform: translateY(-10px);
+    }  
+
+    .color-active {
+        transform: translateY(-15px);
+    }
+    
+    .color-inactive {
+        transform: translateY(0px);
+    }
+    
+
+    
+}
